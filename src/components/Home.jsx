@@ -16,7 +16,7 @@ const Home = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
             <div className="flex justify-center">
-                <img className="rounded max-w-96"  src={profilePic} alt="picture of me!"></img>
+                <img className="rounded w-56 lg:w-96"  src={profilePic} alt="picture of me!"></img>
             </div>
         </div>
     </div>

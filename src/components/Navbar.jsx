@@ -1,4 +1,4 @@
-import { FaLinkedin } from "react-icons/fa"
+
 import { FaGithub } from "react-icons/fa"
 
 const Navbar = () => {
@@ -6,8 +6,8 @@ const Navbar = () => {
     <div className="flex flex-shrink-0 items-center">
     </div> 
     <div className="m-8 flex items-end justify-end gap-8 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
+        <a href="https://github.com/haileefonseca" target="_blank" rel="noreferrer noopener"><FaGithub className="text-teal-800"/></a>
+        
     </div>
   </nav>
 }
