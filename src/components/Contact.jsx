@@ -2,12 +2,12 @@ import {CONTACT} from '../constants'
 
 const Contact = () => {
   return (
-    <div className="pb-10 pt-10">
-        <h1 className="my-10 text-center text-4xl text-teal-800">Contact me!</h1>
+    <section id="contact" className="pb-10 pt-10">
+        <h1 className="pt-10 pb-5 text-center text-4xl text-gray-700">Contact me</h1>
         <div className="text-center">
-            <a href='mailto: fonseca.h@northeastern.edu' className='border-b border-teal-800 text-teal-800'>{CONTACT.email}</a>
+            <a href='mailto: fonseca.h@northeastern.edu' className='border-b border-gray-600 text-gray-700'>{CONTACT.email}</a>
         </div>
-    </div>
+    </section>
   )
 }
 
